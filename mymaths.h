@@ -1,6 +1,11 @@
 #ifdef MYMATHS_H
-#define MYMATHS_H 
-
+#define MYMATHS_H
+long long gcd(long long a,long long b);
+long long lcm(long long a,long long b);
+bool isprime(long long n);
+bool issq(long long n);
+short numlen(long long n);
+#endif
 #include<cmath>
 long long gcd(long long a,long long b){
 	//O(1)
@@ -48,4 +53,4 @@ short numlen(long long n){//Number of digits
 	}
 	return nlen;
 }
-#endif
+//#endif
